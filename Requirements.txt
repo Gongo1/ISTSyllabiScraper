@@ -1,9 +1,4 @@
-from bs4 import BeautifulSoup as bsp
-import requests
-import pandas as pd
-import names
-import re
-import urllib2
-import os
-import time
-import unicodedata
+bs4
+requests
+pandas 
+names

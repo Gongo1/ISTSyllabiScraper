@@ -8,4 +8,4 @@ Python Version 2.7
 
 
 # Intro
-`pip install Requirements.txt`
+`pip install -r Requirements.txt `

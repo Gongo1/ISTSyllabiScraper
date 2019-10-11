@@ -16,7 +16,6 @@ import names
 import re
 import urllib2
 import os
-import cPickle as pickle
 import time
 import unicodedata
 start = time.time()
@@ -24,10 +23,9 @@ start = time.time()
 
 
 base_url = "https://teaching.ist.psu.edu/ist-courses"
-base1 = "https://teaching.ist.psu.edu/courses/"
 output_directory = "data/"
 
-os.chdir("/Users/Austin/Desktop/cramless")
+#os.chdir("/Users/Austin/Desktop/cramless")
 
 #----------------------------------------------------
 ''' Collect all course links from HTML using base_url '''
